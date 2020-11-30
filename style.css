@@ -157,6 +157,27 @@ section:nth-child(2n+1){
     border-radius: 20px 0px 0px 20px;
 }
 
+/* Timeline */
+
+.timeline{
+    position: relative;
+    width: 75%;
+    border: 2px solid black;
+}
+
+.timeline-box{
+    position: relative;
+    margin: 5px;
+    width: 40%;
+    left: 5%;
+    min-height: 150px;
+    border: 2px solid black;
+}
+
+.timeline-box:nth-child(2n){
+    left: 53%;
+}
+
 /* Common margin classes */
 
 .mb75px{
