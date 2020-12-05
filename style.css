@@ -326,20 +326,57 @@ section:nth-child(2n+1){
     float: left;
 }
 
+#mail-hyperlink{
+    text-decoration: none;
+    color: white;
+}
+
 .contact-youtube-space{
     width: 30%;
     float: right;
 }
 
-.channel-name-icon{
-    height: 100%;
-    vertical-align: middle;
-    border: 1px solid black;
+.channel-details{
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.channel-details h3 {
+    color: white;
+    font-weight: 550;
+    font-size: 1.5rem;
+    align-self: center;
+}
+
+.contact-youtube-space p{
+    color: #d9dcdd;
+    font-size: 0.8rem;
+    margin-top: 0px;
+    width: 100%;
+    text-align: center;
+}
+
+.pitch-line{
+    color: #d9dcdd;
+    font-size: 0.9rem;
+    margin-right: 20px;
+}
+
+.my-details-info-container {
+    margin: 20px;
+    color: #d9dcdd;
+    font-size: 1rem;
+}
+
+.my-details-info-container a {
+    margin-left: 0.4rem;
+    display: inline-block;
 }
 
 #youtube-img{
-    height: 8rem;
-    width: 8rem;
+    height: 5rem;
+    width: 5rem;
     margin: auto;
     border-radius: 50%;
 }
